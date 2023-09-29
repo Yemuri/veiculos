@@ -1,13 +1,13 @@
+const { DialogWithForm } = require("./components/login/login");
+const { NavbarWithMegaMenu } = require("./components/header/header");
+
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        teste 123456
-        Teste 321
-      </h1>
-    </div>
-  );
+    <>
+      <NavbarWithMegaMenu />
+    </>
+  )
 }
 
 export default App;
