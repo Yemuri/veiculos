@@ -29,7 +29,7 @@ export function PesquisaHeader() {
         className="bg-transparent shadow-none"
       >
         <Card className="mx-auto w-full max-w-[24rem]">
-          <CardHeader
+          {/* <CardHeader
             variant="gradient"
             color="blue"
             className="mb-4 grid h-28 place-items-center"
@@ -62,7 +62,20 @@ export function PesquisaHeader() {
                 Sign up
               </Typography>
             </Typography>
-          </CardFooter>
+          </CardFooter> */}
+          <div className="relative flex w-full gap-2 md:w-max">
+            <Input
+              type="search"
+              label="Type here..."
+              className="pr-20"
+              containerProps={{
+                className: "min-w-[385px]",
+              }}
+            />
+            <Button size="sm" className="!absolute right-1 top-1 rounded w-20">
+              Search
+            </Button>
+          </div>
         </Card>
       </Dialog>
     </>

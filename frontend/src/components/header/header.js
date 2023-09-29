@@ -210,7 +210,8 @@ function NavList() {
                 </ListItem>
             </Typography>
 
-            
+            <PesquisaHeader/>
+
         </List>
     );
 }
@@ -238,10 +239,6 @@ export function NavbarWithMegaMenu() {
                 </Typography>
                 <div className="hidden lg:block">
                     <NavList />
-                </div>
-
-                <div>
-                    <PesquisaHeader/>
                 </div>
 
                 <div className="hidden gap-2 lg:flex">
