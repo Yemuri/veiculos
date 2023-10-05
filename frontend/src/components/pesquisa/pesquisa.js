@@ -66,14 +66,14 @@ export function PesquisaHeader() {
           <div className="relative flex w-full gap-2 md:w-max">
             <Input
               type="search"
-              label="Type here..."
+              label="Buscar marca, modelo..."
               className="pr-20"
               containerProps={{
                 className: "min-w-[385px]",
               }}
             />
             <Button size="sm" className="!absolute right-1 top-1 rounded w-20">
-              Search
+              Buscar
             </Button>
           </div>
         </Card>

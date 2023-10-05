@@ -50,7 +50,7 @@ const navListMenuItems = [
     {
         color: "blue",
         icon: FlagIcon,
-        title: "About us",
+        title: "Contato",
         description: "Learn about our story and our mission statement.",
     },
     {
@@ -156,7 +156,7 @@ function NavListMenu() {
                             onClick={() => setIsMobileMenuOpen((cur) => !cur)}
                         >
                             <Square3Stack3DIcon className="h-[18px] w-[18px]" />
-                            Resources
+                            Serviços
                             <ChevronDownIcon
                                 strokeWidth={2.5}
                                 className={`hidden h-3 w-3 transition-transform lg:block ${isMenuOpen ? "rotate-180" : ""
@@ -206,7 +206,7 @@ function NavList() {
             >
                 <ListItem className="flex items-center gap-2 py-2 pr-4">
                     <UserCircleIcon className="h-[18px] w-[18px]" />
-                    Account
+                    Minha Conta
                 </ListItem>
             </Typography>
 
