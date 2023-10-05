@@ -206,7 +206,7 @@ function NavList() {
             >
                 <ListItem className="flex items-center gap-2 py-2 pr-4">
                     <UserCircleIcon className="h-[18px] w-[18px]" />
-                    Minha Conta
+                    Carros
                 </ListItem>
             </Typography>
 
