@@ -5,7 +5,6 @@ import {
     Navbar,
     Collapse,
     Typography,
-    Button,
     IconButton,
     List,
     ListItem,
@@ -14,11 +13,10 @@ import {
     MenuList,
     MenuItem,
     Chip,
-    Input,
 } from "@material-tailwind/react";
 import {
     ChevronDownIcon,
-    UserCircleIcon,
+    TruckIcon,
     CubeTransparentIcon,
     Bars3Icon,
     XMarkIcon,
@@ -205,7 +203,7 @@ function NavList() {
                 className="font-normal"
             >
                 <ListItem className="flex items-center gap-2 py-2 pr-4">
-                    <UserCircleIcon className="h-[18px] w-[18px]" />
+                    <TruckIcon className="h-[18px] w-[18px]" />
                     Carros
                 </ListItem>
             </Typography>
