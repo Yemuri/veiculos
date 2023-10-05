@@ -1,11 +1,11 @@
 const { DialogWithForm } = require("./components/login/login");
-const { NavbarWithMegaMenu } = require("./components/header/header");
+const { NavbarSimple } = require("./components/header/header");
 
 
 function App() {
   return (
     <>
-      <NavbarWithMegaMenu />
+      <NavbarSimple />
     </>
   )
 }
