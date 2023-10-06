@@ -9,6 +9,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import { PesquisaHeader } from "../pesquisa/pesquisa";
 import { DialogWithForm } from "../login/login";
+
+import Logo from "../../img/header/logo.png"
  
 function NavList() {
   return (
@@ -17,7 +19,7 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-bold"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
           HOME
@@ -27,17 +29,17 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-bold"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          CARROS
+          CARROS 
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-bold text-center"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
           QUEM SOMOS
@@ -74,7 +76,7 @@ export function NavbarSimple() {
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
-          Material Tailwind
+          <img src={Logo} alt="" className="w-24"/>
         </Typography>
         <div className="hidden lg:block">
           <NavList />
