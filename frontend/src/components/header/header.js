@@ -21,7 +21,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-bold"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center hover:text-yellow-500 transition-colors">
           HOME
         </a>
       </Typography>
@@ -31,7 +31,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-bold"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center hover:text-yellow-500 transition-colors">
           CARROS 
         </a>
       </Typography>
@@ -41,7 +41,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-bold text-center"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center hover:text-yellow-500 transition-colors">
           QUEM SOMOS
         </a>
       </Typography>
